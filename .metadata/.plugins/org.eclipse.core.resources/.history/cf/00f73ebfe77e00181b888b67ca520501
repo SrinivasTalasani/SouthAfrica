@@ -1,0 +1,26 @@
+package BaseClass;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseClass1 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+
+	FileInputStream fis= new FileInputStream("C:\\Users\\Srini Talasani\\Desktop\\SOUTHAFRICA\\SA first\\OR.properties");
+	Properties pro= new Properties();
+	pro.load(fis);
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\Srini Talasani\\Downloads\\chromedriver.exe");
+	
+	WebDriver driver = new ChromeDriver();
+	driver.get(pro.getProperty("URL"));
+	driver.manage().window().maximize();
+	
+	}
+
+}

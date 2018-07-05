@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[loged in]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90058" started-at="2018-07-05T10:53:33Z" finished-at="2018-07-05T10:55:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90058" started-at="2018-07-05T10:53:33Z" finished-at="2018-07-05T10:55:03Z">
+      <class name="TestClass.Loginpage">
+        <test-method status="PASS" signature="open()[pri:0, instance:TestClass.Loginpage@14bef66]" name="open" duration-ms="89925" started-at="2018-07-05T12:53:33Z" finished-at="2018-07-05T12:55:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[loged in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- TestClass.Loginpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

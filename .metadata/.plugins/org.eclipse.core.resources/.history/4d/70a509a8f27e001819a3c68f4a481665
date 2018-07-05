@@ -1,0 +1,11 @@
+package TestClass;
+
+import org.testng.annotations.Test;
+
+import BaseClass.BaseClass1;
+
+public class BaseClass extends BaseClass1{
+  @Test
+  public void baseclass() {
+  }
+}

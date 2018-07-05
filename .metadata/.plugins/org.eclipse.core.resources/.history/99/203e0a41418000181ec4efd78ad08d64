@@ -1,0 +1,15 @@
+package TestClass;
+
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+import BaseClass.BaseClass1;
+
+public class NewTest extends BaseClass1{
+  @Test
+  public void open() {
+	  
+	  System.out.println("test passed4566bt ");
+	  Reporter.log("testpassed merere");
+  }
+}
