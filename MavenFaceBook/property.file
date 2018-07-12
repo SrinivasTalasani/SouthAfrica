@@ -1,0 +1,5 @@
+URL=http://127.0.0.1/orangehrm-2.6/login.php
+userid=admin
+pwd=admin
+ff= FirefoxDriver
+chrome= ChromeDriver
