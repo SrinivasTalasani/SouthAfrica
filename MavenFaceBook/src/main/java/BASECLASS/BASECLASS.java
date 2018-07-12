@@ -38,7 +38,7 @@ public class BASECLASS {
 	
 	driver.findElement(By.name("txtUserName")).sendKeys(prop.getProperty("userid"));
 	driver.findElement(By.name("txtPassword")).sendKeys(prop.getProperty("pwd"));
-	driver.findElement(By.name("Submit")).click();
+	driver.findEement(By.name("Submit")).click();
 	Thread.sleep(4000);
 	System.out.println("login successful");
 	//Reporter.log("browser opened and signin completed");
