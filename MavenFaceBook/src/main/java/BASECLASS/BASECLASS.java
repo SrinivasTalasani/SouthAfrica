@@ -32,6 +32,8 @@ public class BASECLASS {
 	driver.getCurrentUrl();
 	driver.get(prop.getProperty("URL"));
 	
+	// second commit
+	
 	
 	driver.findElement(By.name("txtUserName")).sendKeys(prop.getProperty("userid"));
 	driver.findElement(By.name("txtPassword")).sendKeys(prop.getProperty("pwd"));
