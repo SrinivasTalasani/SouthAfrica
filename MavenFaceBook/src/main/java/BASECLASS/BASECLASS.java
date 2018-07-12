@@ -12,7 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Reporter;
+//import org.testng.Reporter;
 
 public class BASECLASS {
 	
@@ -41,7 +41,7 @@ public class BASECLASS {
 	driver.findElement(By.name("Submit")).click();
 	Thread.sleep(4000);
 	System.out.println("login successful");
-	Reporter.log("browser opened and signin completed");
+	//Reporter.log("browser opened and signin completed");
 	
 
 	}}
